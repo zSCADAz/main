@@ -1,0 +1,127 @@
+body .sppb-btn.sppb-btn-default,
+body .sppb-btn.sppb-btn-primary,
+body .sppb-btn.btn-primary,
+body .btn.sppb-btn-default,
+body .btn.sppb-btn-primary,
+body .btn.btn-primary {
+    background-color: #198754;
+    box-shadow: 0px 2px 8px rgba(28, 26, 32, 0.1);
+}
+
+#sppb-addon-1694297770082 .sppb-addon-form-builder-form .sppb-form-group {
+    padding: 20px;
+    border-width: 15px;
+    border-radius: 20px;
+    border-top: 2px;
+    border-right: 0.25rem;
+    border-bottom: 2px;
+    border-left: 0.25rem;
+    border-right-color: #0b8c5f;
+    border-left-color: #0b8c5f;
+    border-top-color: #e9ebf3;
+    border-bottom-color: #e9ebf3;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, .15);
+    border-right: 0.25rem solid #0d8c60;
+    border-left: 0.25rem solid #0d8c60;
+}
+
+.TopMenuColor {
+    color: gainsboro;
+}
+
+.BodyLogo {
+    background: #f4f4f4 url('../../../../Images/Logo_Gray_White.png');
+}
+
+.a {
+    color: #9A935F
+}
+
+#sp-footer .container-inner:after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -105px;
+    z-index: 1;
+    background: rgb(196 255 118 / 30%);
+    backdrop-filter: blur(4px);
+    width: 80px;
+    height: 100px;
+}
+
+.sppb-sp-slider-button .sp-slider-btn-text {
+    display: block;
+    color: #fff;
+    background: #f20202;
+    padding: 10px 20px;
+    transition-duration: .4s;
+    transition-property: color, background;
+    font-size: 16px;
+    border-radius: 2px
+}
+
+.number-circle {
+    display: inline-block;
+    width: 120px;
+    /* Adjust width as needed */
+    height: 120px;
+    /* Ensure same width and height for circle */
+    text-align: center;
+    /* Center the number inside */
+    line-height: 50px;
+    /* Match line-height with height for vertical centering */
+    border-radius: 50%;
+    /* Set 50% for a perfect circle */
+    background-color: #9a935f;
+    /* Optional: Set background color */
+    background-color: transparent;
+    border-color: darkcyan;
+    border: groove;
+    border-color: #0b8c5e;
+}
+
+color: black;
+/* Optional: Set text color */
+
+.honeycomb {
+    display: inline-block;
+    /* Allow inline placement */
+    width: 100px;
+    /* Adjust width as needed */
+    height: calc(100px / 1.73);
+    /* Calculate height based on width */
+    position: relative;
+    background-image: url("path/to/your/icon.png");
+    /* Replace with your icon path */
+    background-size: contain;
+    /* Ensure icon fits within element */
+    background-repeat: no-repeat;
+    /* Prevent repeating icon */
+    background-position: center;
+    /* Center icon within element */
+    border-bottom: 25px solid #ccc;
+    /* Half the original border size */
+}
+
+.honeycomb::before,
+.honeycomb::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.honeycomb::before {
+    left: -25px;
+    /* Offset leftward by half width */
+    border-bottom: 25px solid #ccc;
+}
+
+.honeycomb::after {
+    right: -25px;
+    /* Offset rightward by half width */
+    border-bottom: 25px solid #ccc;
+}
